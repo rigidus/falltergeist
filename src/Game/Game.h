@@ -192,5 +192,6 @@ namespace Falltergeist
 
                 void operator=(Game const&) = delete;
         };
+        // end.Game
     }
 }

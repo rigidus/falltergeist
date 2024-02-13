@@ -18,7 +18,7 @@ namespace Falltergeist
         {
             public:
                 Start(std::shared_ptr<UI::IResourceManager> resourceManager, std::shared_ptr<ILogger> logger);
-                
+
                 virtual ~Start() = default;
 
                 void think(const float &deltaTime) override;
@@ -32,5 +32,6 @@ namespace Falltergeist
 
                 std::shared_ptr<UI::IResourceManager> _resourceManager;
         };
+        // end.Start
     }
 }
